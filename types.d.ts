@@ -9,7 +9,7 @@ interface Book {
   description: string;
   coverUrl: string;
   coverColor: string;
-  video: string;
+  video?: string;
   summary: string;
-  isLoanedBook: boolean;
+  isLoanedBook?: boolean;
 }
